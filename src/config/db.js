@@ -6,5 +6,4 @@ const pool = new Pool({
     rejectUnauthorized: false, // Bắt buộc với Render
   },
 });
-
 module.exports = pool;
