@@ -1,0 +1,29 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: postgres_flutter
+    environment:
+      POSTGRES_DB: flutter_app
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  api:
+    image: node:20
+    container_name: backend_api
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: npm run dev
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+
+volumes:
+  pgdata:
