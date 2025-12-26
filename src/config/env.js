@@ -1,7 +1,0 @@
-PORT=3000
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=flutter_app
-DB_USER=postgres
-DB_PASSWORD=123456
-JWT_SECRET=super_secret_key
