@@ -17,9 +17,6 @@ data class Product(
     @Column(name = "product_name", nullable = false)
     val productName: String,
 
-    @Column(name = "product_image")
-    val productImage: String? = null,
-
     @Column(name = "product_price", nullable = false)
     val productPrice: Double,
 
@@ -36,5 +33,9 @@ data class Product(
     val productLocationSale: String? = null,
 
     @Column(name = "category_key", nullable = false)
-    val categoryKey: String
+    val categoryKey: String,
+
+    @OneToMany(mappedBy = "product", cascade = [CascadeType.ALL], orphanRemoval = true)
+    val images: List<ImageProduct> = mutableListOf()
+
 )
