@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="202b260c-22b1-468b-93fd-277bcc1b35f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/dinhtc/boomberry/dto/ImageResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/dinhtc/boomberry/entity/ImageProduct.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/dinhtc/boomberry/dto/ProductResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/dinhtc/boomberry/dto/ProductResponse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/dinhtc/boomberry/entity/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/dinhtc/boomberry/entity/Product.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/dinhtc/boomberry/mapper/ProductMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/dinhtc/boomberry/mapper/ProductMapper.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +124,7 @@
       <workItem from="1766724891979" duration="47000" />
       <workItem from="1766725062767" duration="7472000" />
       <workItem from="1766735900679" duration="1280000" />
-      <workItem from="1766762474100" duration="5806000" />
+      <workItem from="1766762474100" duration="6790000" />
     </task>
     <servers />
   </component>

@@ -12,13 +12,13 @@ server:
 #    show-sql: true
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/boomberry
-    username: boomberry
-    password: 123456
-
-#    url: jdbc:postgresql://dpg-d56futshg0os73alt390-a.singapore-postgres.render.com/boomberry?sslmode=require
+#    url: jdbc:postgresql://localhost:5432/boomberry
 #    username: boomberry
-#    password: wBvnqrb2Af9Mo1HkrVSudhrK097MJ4M7
+#    password: 123456
+
+    url: jdbc:postgresql://dpg-d56futshg0os73alt390-a.singapore-postgres.render.com/boomberry?sslmode=require
+    username: boomberry
+    password: wBvnqrb2Af9Mo1HkrVSudhrK097MJ4M7
 
   jpa:
     hibernate:
